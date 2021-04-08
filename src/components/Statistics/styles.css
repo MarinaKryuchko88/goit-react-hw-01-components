@@ -14,10 +14,16 @@
 }
 .stat-list {
   display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
-.item {
+.item-statistic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 5);
+
   padding: 10px 0;
 }
 .percentage {
