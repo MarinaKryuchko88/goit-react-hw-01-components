@@ -1,0 +1,27 @@
+.statistics {
+  border: 1px solid grey;
+  width: 500px;
+  margin: auto;
+  margin-top: 40px;
+}
+.title {
+  background-color: #fff;
+  margin: 0;
+  padding: 15px 0;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.stat-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.item {
+  padding: 10px 0;
+}
+.percentage {
+  font-size: large;
+  font-weight: 700;
+  padding-top: 5px;
+}
